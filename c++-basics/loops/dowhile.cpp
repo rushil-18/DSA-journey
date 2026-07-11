@@ -1,11 +1,57 @@
-//.int j=1; for(int i=5, j<=5; i--){ for ( j=k; k<=i; k--){ cout<<k;
+//do...while
+//Run once
 
+//↓
+
+//Check
+
+//↓
+
+//False
+
+//↓
+
+//Done
+
+//Runs once.
+
+//#include<iostream>
+//#include<string>
+
+//using namespace std;
+
+//int main(){
+    //int i = 6;
+
+//while(i <= 5)
+//{
+    //cout << i;
+//}
+//}
+//dosent return anything?
 #include<iostream>
-#include<string>
 
 using namespace std;
 
 int main(){
+
+    int i = 10;
+
+    do
+    {
+        cout << i << endl;
+        i--;
+    }
+while(i >= 8);
+}
+//10,9,8
+
+
+    
+    
+     
     
 
-    }
+    
+
+    
