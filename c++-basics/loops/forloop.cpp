@@ -1,5 +1,5 @@
 // for loop : A for loop is just a while loop with the setup written neatly in one place.
-
+// for(initialization ; condition ; update)
 #include<iostream>
 using namespace std;
 
@@ -46,6 +46,55 @@ int main(){
 
     
 }
+//output:
+//1
+//2
+//3
+//4
+//5
+//6
+//7
+//8
+//9
+//10
+//reverse 
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+int main(){
+    int j=1;
+    for(int i=5 ; j<=i; i--){
+        
+        cout << i << endl;
+    }
+}
+//output:
+//5
+//4
+//3
+//2
+//1
+//without initializing another variable
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+int main(){
+    
+    for(int i=5 ; i >= 1; i--){
+        
+        cout << i << endl;
+    }
+}
+//output:
+//5
+//4
+//3
+//2
+//1
 
 
 #include<iostream>
