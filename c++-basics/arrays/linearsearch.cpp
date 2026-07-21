@@ -35,6 +35,35 @@ int main(){
     }
 }
 
+//version without break - it finds multiple elements. the break only finds one and breaks the loop.
+#include<iostream>
+using namespace std;
 
+
+int main(){
+    int arr[5];
+    for(int i=0 ; i < 5 ; i++){
+        cout << "enter a number:";
+        cin >> arr[i];
+        
+    }
+    int target;
+    cout << "enter a target linear search number: ";
+    cin >> target;
+    
+    int count = 0;
+    
+    for(int i=0 ; i<5 ; i++){
+        if(arr[i] == target){
+            
+            count ++;
+            cout << "found at index :" << i << endl;
+            
+        
+        }
+    cout << "the number of elements are: " << count; 
+        
+    }
+    
 
 
