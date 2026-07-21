@@ -108,7 +108,7 @@ int main(){
     cout << "the second largest no. is " << secondlargest << endl;
 
 }
-// what if first twi elements in array are same.
+// what if first two elements in array are same.
 
 #include<iostream>
 using namespace std;
